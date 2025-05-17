@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 
 *** Variables ***
 ${URL}         https://www.amazon.in
-${BROWSER}     chrome
+${BROWSER}     headlesschrome
 ${PRODUCT}     laptop
 
 *** Keywords ***
