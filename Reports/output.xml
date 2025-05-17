@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.10.4 on win32)" generated="2025-05-14T11:39:29.817059" rpa="false" schemaversion="5">
+<suite id="s1" name="Firsttest" source="C:\Users\chidu\PycharmProjects\Robotframeworktutorial\firsttest.robot">
+<test id="s1-t1" name="Validate the url" line="7">
+<kw name="Open Google Page">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-05-14T11:39:30.142345" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-05-14T11:39:30.141053" elapsed="4.624389"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-05-14T11:39:34.766439" elapsed="3.035751"/>
+</kw>
+<status status="PASS" start="2025-05-14T11:39:30.141053" elapsed="7.661137"/>
+</kw>
+<status status="PASS" start="2025-05-14T11:39:30.140145" elapsed="7.662045"/>
+</test>
+<status status="PASS" start="2025-05-14T11:39:29.819059" elapsed="7.997257"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Firsttest" id="s1" pass="1" fail="0" skip="0">Firsttest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
